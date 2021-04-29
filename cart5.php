@@ -1,0 +1,11 @@
+<?php
+session_start();
+if(isset($_SESSION['name']))
+{
+	header('Location:cart3.php');
+}
+else
+{
+	header('Location:cart.html');
+}
+?>
